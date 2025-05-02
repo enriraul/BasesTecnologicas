@@ -1,0 +1,24 @@
+1.- Especificaciones Clase, atributos, métodos. 
+2.- Relación y cardinalidad entre clases. 
+3.- UML
+4.- Postgresql
+5.- Diagrama de flujo. 
+
+
+Carrito 1-1 Ventas
+Ventas N - 1 Cliente
+Ventas  1 - N Productos
+
+
+
+/*
+
+Ventas ventas = new Ventas(String nombreProducto,float precioProducto,int stockProducto,int  cantidad, String nombre, String correo );
+
+ConfirmaciónCompra(idProducto, idUsuario, stock)
+
+Ventas ventas = new Ventas(Productos producto, Cliente cliente, int cantidad);
+
+cliente.id 
+*/
+
