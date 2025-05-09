@@ -13,5 +13,37 @@ public class Main {
         Motor motor = new Motor("Electrico",500);
         Auto auto = new Auto("Toyota","Corolla",motor);
         auto.MostrarInfoAuto();
+        Motor moto1 = auto.motor;
+
     }
 }
+
+
+/*
+1.-Biblioteca
+libros
+--------
+PrestarLibros
+RecibirLibros
+[] Total de libros
+
+
+2.- Libro:
+Titulo
+Autor
+Existencias
+
+
+3.- Alumno:
+Nombre
+Apellido
+DNI: 
+LibrosPrestados: int
+[] String:Nombre
+------------------
+SolicitarLibro
+DevolverLibro
+
+
+*/
+

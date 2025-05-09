@@ -1,0 +1,61 @@
+Problema: Gestión de una Agenda de Contactos
+En este ejercicio, se debe implementar un sistema que permita gestionar 
+una agenda de contactos. Cada contacto tiene ciertos 
+atributos, como nombre, apellido, teléfono y correo electrónico. Además, 
+algunos contactos pueden ser de tipo personal y otros 
+de trabajo, con atributos adicionales como cumpleaños o detalles de la 
+empresa y el puesto de trabajo.
+
+Especificaciones
+Clases involucradas:
+
+-Contacto (Clase Base):
+
+Contendrá los atributos comunes a todos los contactos: nombre, apellido, telefono, y correo.
+Incluirá un método toString() que devolverá una representación legible del contacto.
+
+
+-ContactoPersonal (Subclase):
+
+Hereda de Contacto y añade un atributo adicional: cumpleaños.
+Sobrescribe el método toString() para incluir el cumpleaños.
+
+
+-ContactoDeTrabajo (Subclase):
+
+Hereda de Contacto y añade dos atributos adicionales: empresa y puesto.
+Sobrescribe el método toString() para incluir estos detalles laborales.
+
+
+
+Operaciones que se deben implementar:
+
+Agregar Contacto Personal:
+
+Solicitar los datos de un contacto personal (nombre, apellido, teléfono, correo, y cumpleaños).
+Guardar el contacto en un Map<String, Contacto>, donde el alias del contacto (una cadena única) se utiliza como clave.
+
+Agregar Contacto de Trabajo:
+
+Solicitar los datos de un contacto de trabajo (nombre, apellido, teléfono, correo, empresa, y puesto).
+Al igual que el contacto personal, se guarda en el Map<String, Contacto>.
+
+Buscar Contacto por Alias:
+
+Permitir al usuario ingresar un alias y buscar el contacto correspondiente en la agenda.
+Si el alias existe, mostrar todos los detalles del contacto; si no, informar que no se encontró el contacto.
+
+Eliminar Contacto por Alias:
+
+Permitir al usuario eliminar un contacto mediante su alias. El contacto debe ser removido del Map.
+
+
+Cargar Contactos desde un Archivo CSV:
+
+Leer un archivo CSV que contenga contactos. Cada línea del archivo tendrá el formato: alias,nombre,apellido,telefono,correo,cumpleaños/empresa,puesto.
+Los contactos deben cargarse y almacenarse en el Map<String, Contacto>.
+
+
+Ver Todos los Contactos:
+
+Mostrar todos los contactos almacenados en la agenda, con sus respectivos alias y detalles completos.

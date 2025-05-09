@@ -1,0 +1,22 @@
+Ejercicio: Sistema de pagos
+
+Estás diseñando un sistema para procesar diferentes tipos de pagos: efectivo, tarjeta 
+y transferencia bancaria.
+
+Implementar una clase Pago con un método realizarPago().
+
+Crear subclases PagoEfectivo, PagoTarjeta y PagoTransferencia, que sobreescriben 
+realizarPago() con sus propias lógicas.
+
+Implementar una clase Caja que tenga métodos registrarPago() sobrecargados para distintos escenarios.
+--------------------------------------------------------------
+
+En la clase Main:
+
+Crear un objeto de Caja y probar los tres métodos registrarPago(...).
+
+Crear una lista de tipo Pago que contenga objetos de PagoEfectivo, PagoTarjeta y PagoTransferencia.
+
+Usar un bucle para recorrer esa lista y llamar a realizarPago().
+
+

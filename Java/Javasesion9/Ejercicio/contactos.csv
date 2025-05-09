@@ -1,0 +1,18 @@
+alias,nombre,apellido,telefono,correo,cumpleaños/empresa,puesto
+ana01,Ana,Pérez,123456789,ana@gmail.com,10/05/1980,
+luisa02,Luisa,García,234567890,luisa@hotmail.com,15/06/1992,
+maria03,María,López,345678901,maria@gmail.com,22/07/1985,
+juan04,Juan,Martínez,456789012,juan@yahoo.com,10/12/1978,
+carlos05,Carlos,Rodríguez,567890123,carlos@outlook.com,11/11/1990,
+paula06,Paula,Fernández,678901234,paula@gmail.com,18/03/1987,
+jose07,José,Sánchez,789012345,jose@hotmail.com,04/08/1975,
+elena08,Elena,González,890123456,elena@gmail.com,14/09/1982,
+laura09,Laura,Martín,901234567,laura@outlook.com,21/10/1983,
+alvaro10,Álvaro,Hernández,012345678,alvaro@gmail.com,30/01/1995,
+josep11,Josep,Muñoz,112233445,josep@empresa.com,TechCorp,Desarrollador
+luis12,Luis,Pérez,223344556,luis@tech.com,InnovaTech,Gerente de Proyectos
+marc13,Marc,Gómez,334455667,marc@startup.com,StartupX,Fundador
+marta14,Marta,López,445566778,marta@corporate.com,CorpLtd,Directora de Marketing
+felix15,Félix,Serrano,556677889,felix@bigcorp.com,BigCorp,Ingeniero de Software
+sofia16,Sofía,Ruiz,667788990,sofia@solutions.com,Solutions Inc.,Consultora
+raquel17,Raquel,Díaz,778899001,raquel@fintech.com,FinTech Ltd.,Analista de Datos
