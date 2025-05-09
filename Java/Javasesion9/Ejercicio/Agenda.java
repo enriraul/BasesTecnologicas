@@ -73,8 +73,54 @@ public class Agenda{
                     System.out.println("Contacto de trabajo agregado");
                     break;
                 case 4:
+                    System.out.println("Busqueda de contactos por Alias");
+                    if (agenda.isEmpty()) {
+                        System.out.println("Actualmente no existen contactos en tu agenda");                        
+                    }
+                    else{
+                        System.out.println("Ingrese el alias del contacto: ");
+                        String aliasContacto = sc.nextLine();
+                        /*
+                        Contacto c = agenda.get(aliasContacto);
+                        if (c!= null) {
+                            System.out.println("Contacto:" + c );
+                        }
+                        else{
+                            System.out.println("El alias no existe");
+                        }
+                        */
+                        if(agenda.containsKey(aliasContacto)){
+                            Contacto c = agenda.get(aliasContacto);
+                            System.out.println("Contacto:" + c );
+                        }
+                        else{
+                            System.out.println("El alias no existe");
+                        }
+                    }
                     break;
                 case 5:
+                    System.out.println("Eliminar de contactos por Alias");
+                    if (agenda.isEmpty()) {
+                        System.out.println("Actualmente no existen contactos en tu agenda");                        
+                    }
+                    else{
+                        System.out.println("Ingrese el alias del contacto a eliminar: ");
+                        String aliasContacto = sc.nextLine();
+
+                        if(agenda.containsKey(aliasContacto)){
+                            Contacto c = agenda.get(aliasContacto);
+                            System.out.println("Información del contacto:" + c );
+                            System.out.println("Eliminar contacto: 1.- Sí, 2.- No");
+                            int opcionE = sc.nextInt();
+                            if(opcionE == 1){
+                                agenda.remove(aliasContacto);
+                                System.out.println("Contacto eliminado");
+                            }
+                        }
+                        else{
+                            System.out.println("El alias no existe");
+                        }
+                    }
                     break;
                 case 6:
                     break;
@@ -89,3 +135,11 @@ public class Agenda{
     }
 
 }
+
+/*
+python/python3:
+
+file = open(patharchivo,formatoLectura) "w, a, w+, r"
+c = fopen(pathArchivo, formatoLectura);
+
+*/
