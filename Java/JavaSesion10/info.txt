@@ -1,0 +1,26 @@
+Estructura de Archivos
+
+lib
+    librerias //incluir .jar
+src
+    Todos los archivos .java, .sql, 
+bin
+
+
+PSQL
+
+Creación de usuario y base de datos
+
+psql -U postgres
+-Ingresar contraseña (el usuario colocó la contraseña)
+
+CREATE USER nombre_usuario WITH PASSWORD 'contraseña';
+CREATE DATABASE mi_database OWNER nombre_usuario;
+GRANT ALL PRIVILEGES ON DATABASE mi_database TO nombre_usuario;
+
+-Posicionar en la ubicación del archivo .sql
+psql -U nombre_usuario -d mi_database -f archivo.sql
+-Ingresar contraseña
+
+Ejecutar archivo.java junto con .jar
+java -cp "bin;lib/postgresql-42.7.5.jar" ConsultarUsuario
