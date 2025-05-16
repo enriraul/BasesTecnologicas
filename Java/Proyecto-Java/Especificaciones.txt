@@ -22,3 +22,39 @@ Ventas ventas = new Ventas(Productos producto, Cliente cliente, int cantidad);
 cliente.id 
 */
 
+
+
+mi-proyecto //La carpeta raíz
+
+    README.md
+    Especificar: 
+    versiones de paqueterias: SQL, Java, JDK, 
+
+    docs/ 
+        diagrama-er
+        diagrama-clases
+        diagrama-flujo
+    
+    db/
+        script.sql //Definicir: tablas, atributos, claves. 
+        datos_prueba.sql //Archivo con datos precargados. 
+
+    src/
+        main/
+            java/
+                clases de java. 
+
+    lib/
+        /Paquerias necesarias. 
+        Postgresql.jar 
+
+
+
+id_usuario id_ventas id_productos 
+
+1               1           5
+1               2           7   
+1               3           1
+1               4           2
+1               5           6
+1               6           3
